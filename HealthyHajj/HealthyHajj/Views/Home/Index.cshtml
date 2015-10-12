@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <h2>Lorem Ipsum...</h2>
+        @if (Request.IsAuthenticated)
+        {
+            <p>
+                You're logged in. You may enroll.
+            </p>
+        }
+        else
+        {
+            <p>
+                In order to enroll, you'll need to login.
+            </p>
+        }
+    </div>
+    <div class="col-md-4">
+        <h2>Lorem Ipsum...</h2>
+    </div>
+</div>

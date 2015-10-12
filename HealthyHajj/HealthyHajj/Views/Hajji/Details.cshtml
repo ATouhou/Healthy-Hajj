@@ -1,0 +1,83 @@
+﻿@model HealthyHajj.Models.Hajji
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Hajji</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DoctorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoctorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HajjiAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HajjiAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DoctorAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoctorAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HajjiContact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HajjiContact)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DoctorContact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoctorContact)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HajjiMedicalInformation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HajjiMedicalInformation)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

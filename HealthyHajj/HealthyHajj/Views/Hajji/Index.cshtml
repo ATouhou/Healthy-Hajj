@@ -1,0 +1,27 @@
+﻿@model IEnumerable<HealthyHajj.Models.Hajji>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <h4>Lorem Ipsum...</h4>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p> 
+        <p>
+            Curabitur interdum ipsum sit amet nisl suscipit tincidunt. Praesent vel velit quis quam consequat lobortis nec ultricies justo. Aliquam consectetur dignissim dui.
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h4>Requirements for Healthy Hajj</h4>
+        <ul>
+            <li>Saudi Arabia Visa</li>
+            <li>Primary Care Physician Contact</li>
+        </ul>
+
+        @Html.ActionLink("Enroll", "Create")
+    </div>
+</div>

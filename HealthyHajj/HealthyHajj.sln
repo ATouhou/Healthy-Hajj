@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyHajj", "HealthyHajj\HealthyHajj.csproj", "{B9D49F8D-AB5E-4DE0-AA01-F33AE05AAC78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyHajj.Tests", "HealthyHajj.Tests\HealthyHajj.Tests.csproj", "{1414A57C-468E-4CF8-8209-CED0C70B3AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9D49F8D-AB5E-4DE0-AA01-F33AE05AAC78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D49F8D-AB5E-4DE0-AA01-F33AE05AAC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D49F8D-AB5E-4DE0-AA01-F33AE05AAC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D49F8D-AB5E-4DE0-AA01-F33AE05AAC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1414A57C-468E-4CF8-8209-CED0C70B3AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1414A57C-468E-4CF8-8209-CED0C70B3AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1414A57C-468E-4CF8-8209-CED0C70B3AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1414A57C-468E-4CF8-8209-CED0C70B3AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
