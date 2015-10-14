@@ -8,7 +8,15 @@ namespace HealthyHajj.Models
 {
     public class Hajji
     {
+        public Hajji()
+        {
+            BraceletId = string.Empty;
+        }
+
         public int Id { get; set; }
+
+        public string BraceletId { get; set; }
+
         public string FirstName { get; set;  }
 
         public string LastName { get; set; }
