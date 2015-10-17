@@ -1,3 +1,27 @@
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache
+config.guess
+config.log
+config.status
+config.sub
+configure
+install-sh
+libtool
+ltmain.sh
+missing
+smartirc4net.pc
+*.pidb
+*.userprefs
+*.suo
+*.user
+*.sln.docstates
+*.dll
+*.pdb
+bin/
+obj/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
