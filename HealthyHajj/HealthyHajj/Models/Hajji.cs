@@ -1,6 +1,8 @@
 ﻿using HealthyHajj.Models.SubModels;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -13,10 +15,12 @@ namespace HealthyHajj.Models
             BraceletId = string.Empty;
         }
 
+        [Key]
         public int Id { get; set; }
 
         public string BraceletId { get; set; }
 
+        [DisplayName("First Name")]
         public string FirstName { get; set;  }
 
         public string LastName { get; set; }
