@@ -87,5 +87,23 @@ namespace HealthyHajj.Controllers
             }
             base.Dispose(disposing);
         }
+
+        [Authorize]
+        public ActionResult CheckIn()
+        {
+            return null;
+        }
+
+        [Authorize]
+        public ActionResult AssignPage()
+        {
+            return null;
+        }
+
+        [Authorize]
+        public ActionResult CheckOut()
+        {
+            return null;
+        }
     }
 }

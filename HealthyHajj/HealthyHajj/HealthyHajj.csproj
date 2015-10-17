@@ -251,6 +251,8 @@
     <Content Include="Views\Hajji\Details.cshtml" />
     <Content Include="Views\Hajji\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial - Copy.cshtml" />
+    <Content Include="Views\Hajji\CheckInSearch.cshtml" />
+    <Content Include="Views\Hajji\AssignDeviceToHajji.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
