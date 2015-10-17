@@ -38,6 +38,22 @@ namespace HealthyHajj.Controllers
             return View(hajji);
         }
 
+        // GET: Hajji/Details/5
+        [Authorize]
+        public ActionResult CheckIn(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Hajji hajji = db.Hajjis.Find(id);
+            if (hajji == null)
+            {
+                return HttpNotFound();
+            }
+            return View(hajji);
+        }
+
         [Authorize]
         // GET: Hajji/Create
         public ActionResult Create()
