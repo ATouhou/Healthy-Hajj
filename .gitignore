@@ -1,3 +1,7 @@
+bin/
+obj/
+bin/*
+obj/*
 Makefile
 Makefile.in
 aclocal.m4
@@ -19,8 +23,8 @@ smartirc4net.pc
 *.sln.docstates
 *.dll
 *.pdb
-bin/
-obj/
+HealthyHajj.Tests/bin/
+HealthyHajj.Tests/obj/
 
 # Windows image file caches
 Thumbs.db
