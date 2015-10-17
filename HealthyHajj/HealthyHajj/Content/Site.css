@@ -1,8 +1,6 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: #0B6B0B;
-    color: #FFFFFF;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -23,23 +21,6 @@ input,
 select,
 textarea {
     max-width: 280px;
-}
-
-/*****  SITE CSS  *****/
-
-div.dark-green {
-    background-color: #0B6B0B;
-    color: #FFFFFF;
-}
-
-div.dark-blue {
-    background-color: #4D7D7D;
-    color: #085050;
-}
-
-div.light-blue {
-    background-color: #085050;
-    color: #4D7D7D;
 }
 
 
