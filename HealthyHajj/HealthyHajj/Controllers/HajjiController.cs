@@ -89,12 +89,6 @@ namespace HealthyHajj.Controllers
         }
 
         [Authorize]
-        public ActionResult CheckIn()
-        {
-            return null;
-        }
-
-        [Authorize]
         public ActionResult AssignPage()
         {
             return null;
